@@ -1,6 +1,12 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
+// Logical AND assignment
+// Check eligible candidate
+// Step 1: Ask the candidate have you completed your masters? y/n 
+// Step 2: Ask the candidate are you fulent in English? y/n 
+// Step 3: if the candidate has passed masters and also have fluent english skill then print you are eligible to for the job interview
+// Step 4: else print Sorry. you are not eligible to for the job interview
 
 package firsta.assignment_8_logical_andor;
 

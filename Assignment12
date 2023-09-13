@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+
+
+public class LoopPractice {
+  public static void main(String[] args) {
+    Scanner input=new Scanner(System.in);
+        int firstNum,lastNum;
+        System.out.println("Enter first number: ");
+        firstNum=input.nextInt();
+        System.out.println("Enter last number: ");
+        lastNum=input.nextInt();
+        
+        int i,sum=0;
+        
+        for(i=firstNum; i<=lastNum; i++){
+         if (i%2!=0){
+           sum+=i;
+         }
+        }
+      
+          System.out.println("Sum of odd numbers from "+firstNum+" to "+lastNum+": "+sum);
+      
+     
+  }
+            
+        
+    }
+
+   
